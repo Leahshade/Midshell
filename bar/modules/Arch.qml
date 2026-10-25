@@ -20,7 +20,7 @@ Rectangle {
     required property var panelHost
     required property var sysItems
     property string icon: "archlinux"
-    property string label: "I use Arch btw"
+    property string label: "I use WINDOWS btw"
     property bool lowPowerNotified: false
     property real batteryPercent: UPower.displayDevice ? UPower.displayDevice.percentage : 1
     onBatteryPercentChanged: {
